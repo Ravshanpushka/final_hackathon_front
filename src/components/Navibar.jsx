@@ -18,7 +18,7 @@ const Navibar = () => {
     // }
     // useEffect(() => {
     //     checkSubscribe(user.currentUser.email);
-    // }, []);
+    // }, []); hello
     const history = useNavigate();
     const { logOut } = useContext(authContext)
     const handleLogOut = () => {
